@@ -1,0 +1,9 @@
+#acceuil {
+    background-image: url(taxi-nyc_0.jpg);
+    width: 100%;
+    height: 800px;
+}
+.image {
+    width: 120px;
+    height: auto;
+}

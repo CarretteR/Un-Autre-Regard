@@ -17,6 +17,7 @@ html, body {
     min-height: 100%;
     width: 100%;
     height: 800px;
+    position: relative;
 }
 .layer {
     background-color: rgba(0, 0, 0, 0.7);
@@ -24,6 +25,7 @@ html, body {
     left: 0;
     width: 100%;
     height: 100%;
+    position: absolute;
 }
 /* ACCEUIL */
 
@@ -57,4 +59,6 @@ html, body {
 	text-align: center;
 	font-size: 2rem;
 	font-weight: bold;
+    margin: 0;
+    padding: 0;
 }

@@ -1,9 +1,19 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
 #acceuil {
-    background-image: url(taxi-nyc_0.jpg);
+    background: url(taxi-nyc_0.jpg) no-repeat center center;
+    /* Ajout fixed a la fin pour le même fond d'écran */
     width: 100%;
     height: 800px;
-    background-color: rgba(0,0,0,0.7);
-    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100%; 
 }
 .image {
     width: 120px;
@@ -12,7 +22,7 @@
 #inside {
     display: block;
     text-align: center;
-    padding-top: 30%;
+    padding-top: 35%;
 }
 #acceuil h1 {
     color: white;

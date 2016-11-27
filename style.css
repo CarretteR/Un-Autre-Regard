@@ -2,6 +2,8 @@
     background-image: url(taxi-nyc_0.jpg);
     width: 100%;
     height: 800px;
+    background-color: rgba(0,0,0,0.7);
+    background-repeat: no-repeat;
 }
 .image {
     width: 120px;
@@ -14,4 +16,12 @@
 }
 #acceuil h1 {
     color: white;
+}
+.layer {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }

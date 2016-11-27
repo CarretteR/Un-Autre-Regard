@@ -7,3 +7,11 @@
     width: 120px;
     height: auto;
 }
+#inside {
+    display: block;
+    text-align: center;
+    padding-top: 30%;
+}
+#acceuil h1 {
+    color: white;
+}
